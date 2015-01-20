@@ -1,11 +1,3 @@
-.social li a {
-	color: #cecece;
-	transition: color ease .2s;
-}
-
-.social li a:hover {
-	color: #00B6F1;
-
 
 @font-face {
   font-family: 'OpenSansLight';
