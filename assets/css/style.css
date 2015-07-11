@@ -1,29 +1,9 @@
 /*
-* Piano Keyboard 
+* Piano Keyboard
 * Author: Luiz Felipe Tartarotti Fialho
 * @LFeh / luizfelipe.tf.13@gmail.com
 * http://www.felipefialho.com/
 */
-* {
-  box-sizing: border-box;
-  border: 0;
-  margin: 0;
-  padding: 0;
-}
-img {
-  max-width: 100%;
-  height: auto;
-  vertical-align: middle;
-  border: 0;
-  -ms-interpolation-mode: bicubic;
-}
-@font-face {
-  font-family: 'piano-keyboard';
-  src: url('icons/piano-keyboard.eot?nfc6q9');
-  src: url('icons/piano-keyboard.eot?#iefixnfc6q9') format('embedded-opentype'), url('icons/piano-keyboard.woff?nfc6q9') format('woff'), url('icons/piano-keyboard.ttf?nfc6q9') format('truetype'), url('icons/piano-keyboard.svg?nfc6q9#piano-keyboard') format('svg');
-  font-weight: normal;
-  font-style: normal;
-}
 [class^="icon-"],
 [class*=" icon-"] {
   font-family: 'piano-keyboard';
@@ -50,19 +30,9 @@ img {
 .icon-github:before {
   content: "\e603";
 }
-body {
-  color: #222;
-  background: #fff;
-  font-size: 18px;
-  line-height: 24px;
-  font-family: helvetica, arial;
-}
-a {
-  color: #555;
-  text-decoration: none;
-}
+
 a:hover {
-  color: #999;
+  color: #222;
 }
 .hidden {
   visibility: hidden;
@@ -104,34 +74,6 @@ p {
 hr {
   border-top: 1px solid #ddd;
   margin: 20px 0;
-}
-.fork {
-  position: absolute;
-  right: 0;
-  top: 0;
-  width: 10%;
-}
-.share {
-  height: 20px;
-}
-.social-media {
-  list-style: none;
-  margin: 0;
-}
-.social-media li {
-  display: inline-block;
-  margin: 0 2px;
-}
-.social-media a {
-  transition: color .1s linear;
-  color: #222;
-  font-size: 20px;
-}
-.social-media a:hover {
-  color: #777;
-}
-.comments {
-  font-size: 12px;
 }
 @media (max-width: 767px) {
   .container {
