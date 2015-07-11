@@ -4,32 +4,6 @@
 * @LFeh / luizfelipe.tf.13@gmail.com
 * http://www.felipefialho.com/
 */
-[class^="icon-"],
-[class*=" icon-"] {
-  font-family: 'piano-keyboard';
-  speak: none;
-  font-style: normal;
-  font-weight: normal;
-  font-variant: normal;
-  text-transform: none;
-  line-height: 1;
-  /* Better Font Rendering =========== */
-
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-.icon-facebook:before {
-  content: "\e600";
-}
-.icon-linkedin:before {
-  content: "\e601";
-}
-.icon-twitter:before {
-  content: "\e602";
-}
-.icon-github:before {
-  content: "\e603";
-}
 
 a:hover {
   color: #222;
