@@ -44,9 +44,8 @@ a:hover {
   background:-ms-linear-gradient(-60deg,#000,#333,#000,#666,#333 70%);
   background:-o-linear-gradient(-60deg,#000,#333,#000,#666,#333 70%);
   background:linear-gradient(-60deg,#000,#333,#000,#666,#333 70%);
-  width:725px;
-  position:relative;
-  left:-20px;
+  width:322px;
+  position:inherit;
   border:2px solid #333;
   -webkit-border-radius:0 0 5px 5px;
   -moz-border-radius:0 0 5px 5px;
@@ -56,7 +55,7 @@ a:hover {
 /* Tuts */
 ul#piano {
   display:block;
-  width:97%;
+  width:94%;
   height:240px;
   border-top:2px solid #222;
 }
@@ -575,34 +574,6 @@ Full-Width Styles
   background: url('../images/icon_download.png') no-repeat 0% 90%;
 }
 
-.zip_download_link {
-  display: block;
-  float: right;
-  width: 90px;
-  height:70px;
-  text-indent: -5000px;
-  overflow: hidden;
-  background: url(../images/sprite_download.png) no-repeat bottom left;
-}
-
-.tar_download_link {
-  display: block;
-  float: right;
-  width: 90px;
-  height:70px;
-  text-indent: -5000px;
-  overflow: hidden;
-  background: url(../images/sprite_download.png) no-repeat bottom right;
-  margin-left: 10px;
-}
-
-.zip_download_link:hover {
-  background: url(../images/sprite_download.png) no-repeat top left;
-}
-
-.tar_download_link:hover {
-  background: url(../images/sprite_download.png) no-repeat top right;
-}
 
 #main_content_wrap {
   background: #f2f2f2;
