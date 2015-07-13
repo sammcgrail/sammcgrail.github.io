@@ -193,62 +193,6 @@ ul#piano li:hover b {
   margin-top:10px;
 }
 
-/* Drop Down Menus */
-
-
-
-ul#piano li li {
-  width:150px;
-  height:auto;
-  display:block;
-  float:none;
-  background:transparent;
-}
-
-ul#piano li li a,ul#piano li li a:active {
-  height:auto;
-  display:block;
-  padding:10px 15px;
-  background:#333;
-  font:normal 12px Arial,Sans-Serif;
-  color:#fff;
-  text-decoration:none;
-  -webkit-box-shadow:none;
-  -moz-box-shadow:none;
-  box-shadow:none;
-  border-radius:0px;
-  -webkit-border-radius:0px;
-  -moz-border-radius:0px;
-  border-width:1px 0;
-  border-style:solid;
-  border-color:#444 transparent #222 transparent;
-  top:0px;
-  margin-top:0px;
-}
-
-ul#piano li li a:active:before,ul#piano li li a:active:after {
-  border:none !important;
-}
-
-ul#piano li:hover ul,ul#piano li:hover #search,ul#piano li:hover #contact {
-  visibility:visible;
-  opacity:1;
-  margin-top:15px;
-}
-
-ul#piano li li a:hover {
-  background:#111;
-  border-top-color:#222;
-  border-bottom-color:#000;
-}
-
-.clear {
-  clear:both;
-}
-
-@import url(pygment_trac.css);
-
-
 
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure,
