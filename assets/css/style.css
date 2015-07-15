@@ -67,7 +67,7 @@ hr {
   display: inline-block;
   position: relative;
   margin: 0 2px;
-  width: 6%;
+  width: calc(6% - 4px);
   max-width: 85px;
 }
 .key:active .black-key,
@@ -114,7 +114,7 @@ hr {
 }
 @media (max-width: 767px) {
   .key {
-    width: 8%;
+    width: calc(8% - 4px);
   }
   .key:nth-child(1),
   .key:nth-child(2),
@@ -124,7 +124,7 @@ hr {
 }
 @media (max-width: 480px) {
   .key {
-    width: 12%;
+    width: calc(12% - 4px);
   }
   .key:nth-child(11),
   .key:nth-child(12),
