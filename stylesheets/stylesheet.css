@@ -214,7 +214,7 @@ body {
   color:#373737;
   background: #212121;
   font-size: 16px;
-  font-family: 'Lucida Grande';
+  font-family: 'Lato';
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
 }
@@ -223,7 +223,7 @@ h1, h2, h3, h6 {
   margin: 10px 0;
   font-weight: 700;
   color:#222222;
-  font-family: 'Lucida Grande';
+  font-family: 'Lato';
   letter-spacing: -1px;
 }
 
@@ -400,7 +400,7 @@ table {
  }
 
 th {
-  font-family: 'Lucida Grande', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   padding: 10px;
   background: #373737;
   color: #fff;
