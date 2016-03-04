@@ -1,0 +1,27 @@
+scratch
+      <!-- <br><br><code>Lorem ipsum: dulce et decorum est</code><br><br>
+      <div id="p-wrapper">
+      	<ul id="piano">
+      		<li><a></a><b>Click</b></li>
+          <li><span></span></li>
+      		<li><a></a><b>The</b></li>
+          <li><span></span></li>
+      		<li><a></a><b>Resume Key -></b></li>
+      		<li><a href="SamMcGrailResume.pdf"></a><b>Resume</b></li>
+          <li><span></span></li>
+      		<li><a></a><b>Portfolio coming soon...</b></li>
+          <li><span></span></li>
+          <li><a></a></li>
+          <li><span></span></li>
+          <li><a></a></li>
+      	</ul>
+      </div>
+      <div>
+        <br><code>Run your mouse over the white keys...</code><br>
+      </div> -->
+
+
+
+          <!-- <div id="large-header" class="large-header space-header" style="height: 200px;">
+      			<canvas id="demo-canvas" class="hidden-xs" width="1440" height="200"></canvas>
+      		</div> -->
