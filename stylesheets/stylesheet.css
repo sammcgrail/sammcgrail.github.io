@@ -189,6 +189,28 @@ ul#piano li:hover b {
   margin-top:10px;
 }
 
+/* tooltip for home row */
+.tooltip {
+    position: relative;
+    display: inline-block;
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: grey;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    margin-left: 5px;
+    border-radius: 6px;
+    position: absolute;
+    z-index: 1;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
 
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure,
